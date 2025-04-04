@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    background-color: black;
+    border-radius: 20px;
+   
+}
+header{
+    display: flex;
+    text-align: center;
+    padding: 6rem;
+    height: 300px;
+    opacity: 70%;
+    background-image: url(king.jpg);
+    
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    opacity: 300%;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+color: rgb(239, 241, 245);
+opacity: 500%;
+font-weight: 700;
+}
+.hero{
+    text-align: center;
+    padding: 50px;
+    background-color:rgb(200, 196, 255);
+    border-radius: 20px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about{
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px;
+    background-color:rgb(200, 196, 255);
+    border-radius: 20px;
+    font-weight: 700;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff5733;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/*section */
+section{
+border-radius: 10px;
+padding: 40px;
+text-align: center;
+}
+/*projects */
+.project{
+    padding: 50px;
+    background-color: rgb(200, 196, 255);
+    border-radius: 10px;
+   text-align: center;
+   margin-top: 5px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-bottom: 10px;
+}
+form{
+    background-color: rgb(200, 214, 255);
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    margin-top: 20px;
+}
+button{
+    cursor: pointer;
+    background-color: blue;
+    columns: white;
+    padding: 10px;
+    border: none;
+}
+footer{
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    color:rgb(255, 255, 255) ;
+    margin-top: 10px;
+    height: 240px;
+    position:relative;
+    border-top-left-radius: 30px ;
+    font-family: 'Times New Roman';
+    font-weight: 900 ;
+}
+  #img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+}
+#image{
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+}
+#linkeldn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px; 
+}
+#github{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    gap: 10px;
+}
+.images{
+    display:flex ;
+    border-radius: 10px;
+    gap: 30px;
+}
+#text{
+    text-align: end;
+    color: rgb(238, 204, 12);
+   
+}
+
+#logo{
+    display: block;
+    margin-right: 30px;
+   
+     height: 30px;
+    width: 30px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+#image-container {
+    display: grid;
+    justify-items: right; /* Aligns image to the right */
+    height: 50px;
+    width: 60px;
+}
